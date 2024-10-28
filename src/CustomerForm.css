@@ -1,0 +1,70 @@
+/* CustomerForm.css */
+
+body {
+    background-color: #eaecef; /* Light grey background */
+    font-family: 'Arial', sans-serif; /* Set font */
+  }
+  
+  form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 30px; /* Inner spacing */
+    max-width: 600px; /* Max width for the form */
+    margin: 50px auto; /* Center the form */
+    border: 2px solid #007bff; /* Blue border */
+  }
+  
+  h1 {
+    text-align: center; /* Centered heading */
+    color: #007bff; /* Blue text color */
+    font-size: 24px; /* Font size for heading */
+  }
+  
+  div {
+    margin-bottom: 20px; /* Space between fields */
+  }
+  
+  label {
+    display: block; /* Block display for labels */
+    margin-bottom: 25px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #333; /* Dark text color */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    width: 100%; /* Full width inputs */
+    padding: 12px; /* Inner spacing */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 6px; /* Rounded input corners */
+    transition: border-color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Input text size */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue button background */
+    color: white; /* White text */
+    padding: 12px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width button */
+    font-size: 18px; /* Button text size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
